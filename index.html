@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Du lịch Vũng Tàu</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <a class="brand" href="index.html"> Vũng <span>Tàu</span> </a>
+
+        <button class="toggle" aria-label="Mở menu">☰</button>
+
+        <nav id="menu">
+          <a href="index.html" class="active">Trang chủ</a>
+          <a href="gioithieu.html">Giới thiệu</a>
+          <a href="diadiem.html">Địa điểm</a>
+          <a href="amthuc.html">Ẩm thực</a>
+          <a href="lienhe.html">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video autoplay muted loop playsinline>
+          <source src="../video/gioi-thieu-vung-tau.mp4" type="video/mp4" />
+        </video>
+
+        <div class="hero-content">
+          <div class="eyebrow">Khám phá thành phố biển</div>
+
+          <h1>
+            Chào mừng bạn đến với
+            <br />
+            <span>Vũng Tàu Xinh Đẹp</span>
+          </h1>
+
+          <p>
+            Tận hưởng biển xanh, những cung đường ven biển thơ mộng và hương vị
+            ẩm thực đặc sắc.
+          </p>
+
+          <a class="btn" href="#khampha"> Khám phá ngay </a>
+        </div>
+      </section>
+      <section class="section" id="khampha">
+        <h2>Hành Trình Khám Phá</h2>
+
+        <p class="intro">Cảm nhận vẻ đẹp và hương vị của thành phố biển.</p>
+
+        <div class="grid">
+          <article class="card">
+            <video controls playsinline preload="metadata">
+              <source
+                src="../video/canh-dep-thien-nhien.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <div class="card-content">
+              <h3>Cảnh Đẹp Thiên Nhiên</h3>
+              <p>
+                Chiêm ngưỡng núi non, biển xanh và những cảnh quan đầy ấn tượng.
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <video controls playsinline preload="metadata">
+              <source src="../video/am-thuc-vung-tau.mp4" type="video/mp4" />
+            </video>
+
+            <div class="card-content">
+              <h3>Văn Hóa Ẩm Thực</h3>
+              <p>Khám phá những món ngon đặc trưng của thành phố biển.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Vũng Tàu</h2>
+      <p>Hẹn gặp lại bạn tại thành phố biển xinh đẹp!</p>
+      <p>2026 Vũng Tàu Travel</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+echo "# vungtau" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/huynhphatdat582-blip/vungtau.git
+git push -u origin main
